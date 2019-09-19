@@ -90,6 +90,17 @@ body {
 }
 
 @media(max-width: 800px) {
+	body nav {
+		flex-wrap: wrap;
+	}
+
+	.logo {
+		order: -1;
+		padding-left: 50%;
+		padding-right: 50%;
+		padding-bottom: 30px;
+	}
+
 	#not-logo-but-still-in-header {
 		display: none;
 	}
@@ -105,7 +116,7 @@ body {
 - give nav some space above and below
 
 */
-body nav {
+body nav {	
   display: flex;
   justify-content: space-evenly;
   align-items: center;
